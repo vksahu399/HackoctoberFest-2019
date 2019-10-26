@@ -15,7 +15,7 @@ int main() {
     // here use formula that ==>  gcd(a,b)*lcm(a,b) = a*b
     if (c != 0) {
         // this condition is to prevent seg fault in case of a = 0 & b = 0 as
-        // input
+        // input   
         lcm = (a * b) / c;
     }
     cout << "LCM of " << a << " and " << b << " is " << lcm << endl;
